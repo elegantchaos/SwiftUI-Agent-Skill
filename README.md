@@ -45,7 +45,7 @@ When using `npx`, you can select exactly which agents you want to use during the
 
 Alternatively, you can clone this whole repository and install it however you want.
 
-If you're using Xcode, watch the YouTube video on [How to Install and Use Agent Skills in Xcode](https://youtu.be/_FXxGQR3rZ8) for a walkthrough.
+If you're using Xcode, watch the YouTube video on [How to Install and Use Agent Skills in Xcode](https://www.youtube.com/watch?v=nKVZBKoB6P4) for a walkthrough.
 
 
 ## Using SwiftUI Pro
