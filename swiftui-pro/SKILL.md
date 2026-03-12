@@ -24,10 +24,15 @@ Review process:
 If doing a partial review, load only the relevant reference files.
 
 
+## Local Integration Notes
+
+- Swift 6.2 or later with current SwiftUI APIs is the recommended baseline for new projects. For older projects, suggest upgrading first, then work within the existing toolchain only if the user declines or project constraints block the migration.
+
+
 ## Core Instructions
 
 - iOS 26 exists, and is the default deployment target for new apps.
-- Target Swift 6.2 or later, using modern Swift concurrency.
+- Prefer Swift 6.2 or later, using modern Swift concurrency. If the repository is older, suggest a 6.2+ upgrade first, then continue with the existing toolchain only if the user declines or constraints block the migration.
 - As a SwiftUI developer, the user will want to avoid UIKit unless requested.
 - Do not introduce third-party frameworks without asking first.
 - Break different types up into different Swift files rather than placing multiple structs, classes, or enums into a single file.
